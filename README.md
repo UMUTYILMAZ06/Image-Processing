@@ -48,7 +48,7 @@ contrast and improve visual interpretability. As a result, the normalized pixel
 values were scaled to the [0,1] range.
 ```
 
-![Figure 1: Normalized Red Band (for testing)](Image-Processing/images/1.jpg)
+![Figure 1: Normalized Red Band (for testing)](images/1.jpg)
 
 ## 3.2 True Color Image Generation
 
@@ -57,9 +57,9 @@ An RGB composite image was generated using the B02, B03, and B
 bands. This step was used as a reference to visually assess the correctness of
 the classification results.
 ```
-```
-Figure 2: RGB Composite Image
-```
+![Figure 2: RGB Composite Image](images/2.jpg)
+
+
 
 ## 4- Calculation of Spectral Indices
 
@@ -75,6 +75,7 @@ of subtracting the red band and emphasizing the NIR band in the formula, high
 NDVI values indicate that the corresponding pixels belong to vegetation-
 covered areas.
 ```
+![Figure 3](images/3.jpg)
 ```
 4.2 NDWI (Normalized Difference Water Index)
 Normalized Difference Water Index (NDWI) is a spectral index used
@@ -87,7 +88,7 @@ negative values. In this study, NDWI is employed as a preprocessing step to
 identify water bodies and to separate them from other classes, particularly
 clouds and urban areas.
 ```
-
+![Figure 4](images/4.jpg)
 ```
 4.3 NDBI (Normalized Difference Built-up Index)
 The rationale behind using the NDBI formula is based on the spectral
@@ -100,13 +101,14 @@ normalizing the result, the NDBI enhances the spectral signature of built-up
 areas. Consequently, high NDBI values indicate that the corresponding pixels
 are likely associated with urban or built-up land cover.
 ```
+![Figure 5](images/5.jpg)
 ## 5. Rule-Based Land Cover Classification
 
 In this study, the land cover classification was performed using a fully rule-based
 approach. For each class, specific spectral conditions and threshold values were
 defined based on the physical characteristics of surface materials and their spectral
 responses.
-
+![Figure 6](images/6.jpg)
 ```
 Figure 3: Rule Based Classified Masks
 ```
