@@ -110,7 +110,7 @@ defined based on the physical characteristics of surface materials and their spe
 responses.
 ![Figure 6](images/6.jpg)
 ```
-Figure 3: Rule Based Classified Masks
+
 ```
 Based on these principles, the following rule-based masks were generated:
 
@@ -205,9 +205,7 @@ Cloud 18999.0 1.105306e+06 110.530570 1.
 Other 3451.0 2.007690e+05 20.076899 0.
 Total Valid 574954.0 3.344913e+07 3344.912553 33.
 ```
-```
-Figure 4: Area Calculation Table
-```
+![Figure 7](images/7.jpg)
 ## 7. Results and Conclusion
 
 The experimental results indicate that the proposed rule-based classification approach,
