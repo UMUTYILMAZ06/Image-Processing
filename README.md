@@ -47,9 +47,9 @@ within the 2%–98% percentile range. This process was performed to enhance
 contrast and improve visual interpretability. As a result, the normalized pixel
 values were scaled to the [0,1] range.
 ```
-```
-Figure 1: Normalized Red Band (for testing)
-```
+
+![Figure 1: Normalized Red Band (for testing)](Image-Processing/images/1.jpg)
+
 ## 3.2 True Color Image Generation
 
 ```
